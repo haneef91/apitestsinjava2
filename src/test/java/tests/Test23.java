@@ -19,6 +19,7 @@ public class Test23 {
 		req.auth().form("mngr356676","deqUpav",fc);
 		Response res=req.post();
 		System.out.println(res);
+		System.out.println("hello");
 	    res.then().log().all();
 		
 
